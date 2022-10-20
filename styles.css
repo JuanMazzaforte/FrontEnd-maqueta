@@ -1,0 +1,215 @@
+body{
+    background-image: url(../IMG/object-symmetry-pattern-beige-brightly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: transparent !important;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-bottom: -1rem;
+}
+.iconos{
+    margin: .1rem;
+}
+.btn-primary{
+    --bs-btn-bg:#3c3c3b;
+    --bs-btn-border-color: #3c3c3b;
+    --bs-btn-hover-border-color:#434446;
+    --bs-btn-hover-bg:#434446;
+    --bs-btn-active-bg:#434446;
+    --bs-btn-active-color:none;
+    --bs-btn-active-border-color: none;
+    --bs-btn-disabled-border-color: none;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-focus-shadow-rgb:67, 68, 70;
+}
+.banner{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgba(45, 46, 49, 25%);
+    border-color: #434446;
+}
+.row.border.border-dark.rounded-4{
+    --bs-gutter-x: -8.2rem;
+}
+.modal-header,
+.modal-footer{
+    justify-content: center;
+}
+.titulo{
+    border: none;
+    background-color:#3c3c3b42;
+}
+.edicion{
+    margin: auto;
+}
+
+/*profile picture */
+.profile-picture {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin: auto;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .profile-picture:hover .image {
+    opacity: 0.3;
+  }
+  
+  .profile-picture:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #3c3c3b;
+    color: white;
+    font-size: 16px;
+    padding: 0.3rem;
+  }
+
+
+
+
+
+
+  .progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ebebeb; }
+  
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1rem;
+    color: #434446;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    font-weight: 600;
+    color: #434446; }
+  
+  
+  
+  .progress-circle.progress-5:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(108deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-10:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(126deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-15:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(129.6deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-20:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(151.2deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-25:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(180deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-30:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(198deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-35:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(216deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  .progress-circle.progress-40:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(234deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  
+  .progress-circle.progress-45:after {
+    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(252deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-50:after {
+    background-image: linear-gradient(-90deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+ 
+  .progress-circle.progress-55:after {
+    background-image: linear-gradient(-72deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-60:after {
+    background-image: linear-gradient(-54deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-65:after {
+    background-image: linear-gradient(-36deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-70:after {
+    background-image: linear-gradient(-18deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-75:after {
+    background-image: linear-gradient(0deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-80:after {
+    background-image: linear-gradient(18deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+ 
+  .progress-circle.progress-85:after {
+    background-image: linear-gradient(36deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+ 
+  .progress-circle.progress-90:after {
+    background-image: linear-gradient(54deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+  
+  .progress-circle.progress-95:after {
+    background-image: linear-gradient(72deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
+ 
+  .progress-circle.progress-100:after {
+    background-image: linear-gradient(90deg, #86898f 50%, transparent 50%, transparent), linear-gradient(270deg, #86898f 50%, #ebebeb 50%, #ebebeb); }
+  
